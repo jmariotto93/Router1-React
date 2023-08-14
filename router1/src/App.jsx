@@ -15,7 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='sobre' element={<Sobre />} />
         <Route path='login' element={<Login />} />
-        <Route path='produto/:id' element={<Produto />} />
+        <Route path='produto/:id/*' element={<Produto />} />
         <Route path='*' element={<Error404 />} />
       </Routes>
     </BrowserRouter>
